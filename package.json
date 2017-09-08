@@ -1,0 +1,34 @@
+{
+  "name": "jia",
+  "version": "1.0.0",
+  "description": "仿照prototype,面向对象实现的一个js库",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "qunit-cli test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caixiaojia/jia.git"
+  },
+  "keywords": [
+    "prototype",
+    "javscript"
+  ],
+  "author": "caixiaojia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caixiaojia/jia/issues"
+  },
+  "homepage": "https://github.com/caixiaojia/jia#readme",
+  "devDependencies": {
+    "qunit-cli": "~0.2.0",
+    "qunitjs": "^1.18.0",
+    "uglify-js": "2.4.x",
+    "coveralls": "^2.11.2",
+    "docco": "*",
+    "eslint": "1.10.x"
+  }
+}
