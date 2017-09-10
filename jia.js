@@ -4,6 +4,12 @@ var jia = (function () {
 
     };
 
+    // 返回当前时间戳
+    _.now = Data.now || function() {
+        return new Data.getTime();
+    };
+
+
     // Current version.
     _.VERSION = '1.0.0';
 
